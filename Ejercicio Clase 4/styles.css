@@ -1,0 +1,32 @@
+#contenedor {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+#cabecera {
+  display: none;
+  width: 100%;
+  background: #ccc;
+}
+
+#menu {
+  display: none;
+  width: 25%;
+  float: right;
+  background: #eee;
+}
+
+#contenido {
+
+  width: 75%;
+  float: left;
+  background: #f9f9f9;
+}
+
+#pie {
+  display: none;
+  clear: both;
+  width: 100%;
+  background: #ccc;
+}
