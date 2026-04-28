@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#contenedor {
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 10px;
+
+}
+
+
+#cabecera {
+  width: 100%;
+  border: 2px solid gray;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+
+}
+
+
+#menu {
+  width: 20%;
+  float: left;
+  border: 2px solid gray;
+  padding: 10px;
+
+}
+
+
+#contenido {
+  width: 75%;
+  float: right; 
+  border: 2px solid gray;
+  padding: 15px;
+
+}
+
+#pie {
+  clear: both;
+  width: 100%;
+  border: 2px solid gray;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+
+}
+
+#contenido p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#contenido li {
+  margin-bottom: 10px;
+}
+
+.verde {
+  background-color: lime;
+}
+
+.naranja {
+  color: #e65c00;
+  font-weight: bold;
+}
+
+.amarillo {
+  background-color: yellow;
+}
+
+.celeste {
+  background-color: cyan;
+}
+
+.rojo {
+  color: red;
+}
