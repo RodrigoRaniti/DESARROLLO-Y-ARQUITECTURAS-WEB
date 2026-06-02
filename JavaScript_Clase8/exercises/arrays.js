@@ -1,0 +1,14 @@
+var months=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+console.log(months[4]);
+console.log(months[10]);
+months.sort();
+console.log(months);
+months.unshift("Inicio");
+months.push("Final");
+months.shift();
+months.pop();
+months.reverse();
+console.log(months);
+console.log(months.join(" - "));
+var monthsOriginal=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+console.log(monthsOriginal.slice(4,11));
